@@ -19,5 +19,10 @@ int main(){
 		}
 	}
 
+	for (int i = 0 ; i < 10 ; i++){
+		delete[] p2_ptr[i];
+	}
+	delete[] p2_ptr;
+
 	return 0;
 }
